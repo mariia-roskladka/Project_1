@@ -1,0 +1,198 @@
+.hiring {
+    padding: 50px 15px;
+    min-height: 860px;
+}
+
+@media screen and (min-width: 1400px) {
+    .hiring {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        min-width: 750px;
+        margin: 106px auto 110px;
+        min-height: 630px;
+    }
+}
+
+.hiring__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+}
+
+@media screen and (min-width: 1400px) {
+    .hiring__title {
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: -0.5px;
+    }
+}
+
+.hiring__text {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 18px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+    .hiring__text {
+        margin-top: 20px;
+        width: 555px;
+    }
+}
+
+.hiring__button {
+    margin-top: 30px;
+    min-width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+    .hiring__button {
+        margin-top: 28px;
+        min-width: 247px;
+    }
+}
+
+.hiring__vacancies {
+    height: 140px;
+    margin-top: 39px;
+}
+
+@media screen and (min-width: 1400px) {
+    .hiring__vacancies {
+        width: 100%;
+        margin-top: 110px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.hiring__vacancy {
+    height: 140px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 1400px) {
+    .hiring__vacancy {
+        margin-top: 30px;
+        height: 81px;
+        width: 750px;
+    }
+}
+
+.hiring__vacancy:first-child {
+    margin-top: 0;
+}
+
+.vacancy {
+    border-radius: 8px;
+    border: 1px solid #2B292D33;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.vacancy:hover {
+    background-color: #3141C5;
+}
+
+.vacancy:hover .vacancy__title {
+    color: #fff;
+}
+
+.vacancy:hover .vacancy__location {
+    color: #fff;
+}
+
+.vacancy:hover .vacancy__arrow-container {
+    background-color: transparent;
+}
+
+.vacancy:hover .icon-arrow_right {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+}
+
+.vacancy__details {
+    padding: 20px;
+    flex: 1;
+}
+
+@media screen and (min-width: 1400px) {
+    .vacancy__details {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.vacancy__title {
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 22px;
+    color: #2b292d;
+}
+
+.vacancy__location {
+    font-size: 16px;
+    line-height: 22px;
+    color: #2b292d;
+    opacity: 0.6;
+    margin-top: 17px;
+}
+
+@media screen and (min-width: 1400px) {
+    .vacancy__location {
+        max-width: 232px;
+        flex: 1;
+        margin-left: auto;
+        margin-top: 0;
+    }
+}
+
+.vacancy__arrow-container {
+    background-color: #D5D4D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+@media screen and (min-width: 1400px) {
+    .vacancy__arrow-container {
+        width: 50px;
+        background-color: white;
+    }
+}
+
+.nav__link {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1400px) {
+    .hide_desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .hide_mobile {
+        display: none;
+    }
+}
+
+.icon-arrow_right {
+    display: block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+    width: 7px;
+    height: 12px;
+}

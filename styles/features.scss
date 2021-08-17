@@ -1,0 +1,80 @@
+  @import "variables.scss";
+  .features {
+      display: flex;
+      position: relative;
+      margin-bottom: 103px;
+      padding-bottom: 7px;
+      @include for-medium-small {
+          display: none;
+      }
+      &__content {
+          @extend %size-page;
+      }
+      &__colum {
+          width: 459px;
+      }
+      &__subtitle {
+          margin: 0px;
+          font-size: 22px;
+          line-height: 34px;
+          font-weight: 700;
+          color: #009B4D;
+      }
+      &__title {
+          font-size: 56px;
+          line-height: 56px;
+          font-weight: 700;
+          letter-spacing: -0.5px;
+          margin: 0px;
+          margin-top: 24px;
+      }
+      &__description {
+          margin: 0px;
+          margin-top: 30px;
+          font-size: 24px;
+          line-height: 34px;
+      }
+      &__advantage-header {
+          display: flex;
+          margin-top: 42px;
+      }
+      &__advantage-title {
+          margin: 0px;
+          margin-left: 15px;
+          font-size: 22px;
+          line-height: 26px;
+          ;
+          font-weight: 700;
+          color: #3142c6;
+      }
+      &__advantage-description {
+          margin: 0px;
+          margin-top: 8px;
+          font-size: 18px;
+          line-height: 26px;
+          padding-bottom: 20px;
+          border-bottom: 3px solid #3142c6;
+      }
+      &__advantage-item {
+          border-bottom: 1px solid #2b292d26;
+          margin-top: 21px;
+          padding-bottom: 22px;
+          display: flex;
+          &-text {
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              margin-left: 15px;
+          }
+      }
+      &__let-decoration {
+          height: 166px;
+          top: 258px;
+          position: absolute;
+      }
+      &__banner {
+          position: absolute;
+          right: 0;
+          height: 597px;
+      }
+  }

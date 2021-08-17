@@ -1,0 +1,47 @@
+@import "variables.scss";
+.customers {
+    display: flex;
+    flex-direction: column;
+    @include for-extra-small {
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 106px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    &__down {
+        @include for-extra-small {
+            padding-bottom: 76px;
+        }
+    }
+    &__row {
+        display: flex;
+        @include for-extra-small {
+            flex: 1;
+            justify-content: space-around;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 94px;
+        width: 107px;
+        border-bottom: 1px solid #e3e3e3;
+        border-right: 1px solid #e3e3e3;
+        flex: 1;
+        @include for-extra-small {
+            border: none;
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &__logo {
+        filter: brightness(0);
+        max-width: 80%;
+    }
+}

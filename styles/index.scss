@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "about.scss";
+@import "customers.scss";
+@import "features.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "headline.scss";
+@import "tips.scss";
+@import "order.scss";
+@import "hiring.scss";
+@import "audience.scss";
+@import "inbox.scss";
+@import "communication.scss";
+@import "feedback.scss";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: $text-color-primary;
+}
+
+.page {
+    width: 100%;
+    @include for-extra-small {
+        max-width: 1400px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}

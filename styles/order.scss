@@ -1,0 +1,95 @@
+@import "variables.scss";
+.order {
+    padding: 50px 15px;
+    background-color: $color-light;
+    @include for-extra-small {
+        padding: 73px 0 72px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 441px;
+    }
+    &__details {
+        max-width: 550px;
+        @include for-extra-small {
+            margin-top: 45px;
+        }
+    }
+    &__illustration {
+        min-width: 200px;
+        @include for-extra-small {
+            max-width: 269px;
+            margin-right: 121px;
+        }
+    }
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+        margin: 0;
+        margin-top: 40px;
+        @include for-extra-small {
+            text-align: start;
+            margin: 0;
+        }
+    }
+    &__form {
+        @include for-extra-small {
+            display: flex;
+            margin-top: 26px;
+        }
+    }
+    &__text {
+        margin: 0;
+        margin-top: 18px;
+        font-size: 22px;
+        line-height: 32px;
+        @include for-extra-small {
+            margin-top: 12px;
+        }
+    }
+    &__email {
+        margin-top: 40px;
+        background-color: $text-button-collor;
+        border: 1px solid $border-color;
+        border-radius: 2px;
+        height: 48px;
+        width: 100%;
+        text-align: center;
+        line-height: 13px;
+        @include for-extra-small {
+            margin-top: 0px;
+            max-width: 385px;
+        }
+        &::placeholder {
+            color: $text-color-primary
+        }
+    }
+    &__button {
+        @extend %button-started;
+        margin-top: 12px;
+        @include for-medium-small {
+            min-width: 100%;
+        }
+        @include for-extra-small {
+            margin: 0;
+            margin-left: 10px;
+            flex-shrink: 0;
+        }
+    }
+    &__terms {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 22px;
+        color: $text-button-light-grey;
+        @include for-extra-small {
+            margin-top: 10px;
+        }
+    }
+    &__terms-link {
+        color: $text-button-blue;
+    }
+}

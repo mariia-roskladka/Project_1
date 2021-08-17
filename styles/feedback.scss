@@ -1,0 +1,87 @@
+@import "variables.scss";
+.feedback {
+    padding: 39px 15px 50px;
+    border-bottom: 1px solid $color-light-grey;
+    @include for-extra-small {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        position: relative;
+    }
+    &__link {
+        text-decoration: none;
+        color: #3142C6;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 29px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 34px;
+        @include for-extra-small {
+            text-align: center;
+            margin-top: 28px;
+            margin-bottom: 34px;
+            max-width: 750px;
+        }
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        &-position {
+            margin: 0px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    &__img {
+        max-width: 290px;
+        max-height: 258px;
+        @include for-extra-small {
+            max-width: 273px;
+            max-height: 243px;
+            position: absolute;
+            right: 26px;
+            bottom: 0px;
+        }
+    }
+}
+
+.circles {
+    display: flex;
+    margin: 40px 0px;
+    justify-content: center;
+    @include for-extra-small {
+        margin-top: 38px;
+        margin-bottom: 66px;
+    }
+}
+
+.circle {
+    height: 12px;
+    width: 12px;
+    margin-right: 19.5px;
+    border-radius: 50%;
+    opacity: 0.2;
+    &:last-child {
+        margin-right: 0;
+    }
+    background-color: $text-color-primary;
+    @include for-extra-small {
+        height: 8px;
+        width: 8px;
+        margin-right: 13px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &:hover {
+        background-color: $color-dark-blue;
+        opacity: 1;
+    }
+}
