@@ -45,7 +45,7 @@
 
 .communication__line {
     width: 150px;
-    border-bottom: 1px solid color-black;
+    border-bottom: 1px solid #000;
     opacity: 0.1;
 }
 
@@ -69,7 +69,7 @@
 }
 
 @media screen and (min-width: 1400px) {
-    .for-desckrop {
+    .for-desktop {
         display: flex;
     }
 }

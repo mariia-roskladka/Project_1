@@ -1,7 +1,7 @@
 header {
     height: 64px;
     width: 100%;
-    background-color: text-color-white;
+    background-color: #fff;
     padding-left: 15px;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ header {
         display: block;
         height: 48px;
         background-color: #3040c4;
-        color: text-color-white;
+        color: #fff;
         font-size: 18px;
         font-weight: 700;
         border-radius: 2px;
@@ -123,7 +123,7 @@ header {
 }
 
 .nav__item {
-    color: text-color-dark;
+    color: #2b292d;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
@@ -173,7 +173,7 @@ header {
 .logo__description {
     font-size: 18px;
     line-height: 25px;
-    color: text-color-dark;
+    color: #2b292d;
     opacity: 0.6;
 }
 

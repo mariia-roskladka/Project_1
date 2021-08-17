@@ -108,11 +108,11 @@
 }
 
 .vacancy:hover .vacancy__title {
-    color: text-color-white;
+    color: #fff;
 }
 
 .vacancy:hover .vacancy__location {
-    color: text-color-white;
+    color: #fff;
 }
 
 .vacancy:hover .vacancy__arrow-container {
@@ -139,13 +139,13 @@
     font-weight: 700;
     line-height: 28px;
     font-size: 22px;
-    color: text-color-dark;
+    color: #2b292d;
 }
 
 .vacancy__location {
     font-size: 16px;
     line-height: 22px;
-    color: text-color-dark;
+    color: #2b292d;
     opacity: 0.6;
     margin-top: 17px;
 }
