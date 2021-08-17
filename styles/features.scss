@@ -4,7 +4,7 @@
       position: relative;
       margin-bottom: 103px;
       padding-bottom: 7px;
-      @include for-medium-small {
+      @include for-mobile {
           display: none;
       }
       &__content {

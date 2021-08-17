@@ -84,7 +84,7 @@
     margin-right: 19.5px;
     border-radius: 50%;
     opacity: 0.2;
-    background-color: #2b292d;
+    background-color: text-color-dark;
 }
 
 .circle:last-child {

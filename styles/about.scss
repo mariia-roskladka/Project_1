@@ -1,7 +1,7 @@
 @import "variables.scss";
 .about {
     padding: 46px 15px;
-    @include for-extra-small {
+    @include for-desktop {
         width: 100%;
         display: flex;
         background-color: #f4f5f7;
@@ -14,7 +14,7 @@
     &:last-child {
         margin-top: 20px;
     }
-    @include for-extra-small {
+    @include for-desktop {
         margin: 0px;
         width: 555px;
         &:last-child {

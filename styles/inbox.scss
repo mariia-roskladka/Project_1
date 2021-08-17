@@ -2,21 +2,21 @@
 .inbox {
     background-color: #FCF0E366;
     padding: 50px 15px 48px;
-    @include for-extra-small {
+    @include for-desktop {
         display: flex;
         height: 790px;
         padding: 0;
         align-items: center;
     }
     &__picture {
-        @include for-extra-small {
+        @include for-desktop {
             margin: 142px 164px 101px 193px;
         }
     }
     &__img {
         max-height: 348px;
         max-width: 290px;
-        @include for-extra-small {
+        @include for-desktop {
             max-width: 425px;
             max-height: 510px;
         }
@@ -27,13 +27,13 @@
         color: $text-button-light-grey;
         text-align: center;
         display: none;
-        @include for-extra-small {
+        @include for-desktop {
             display: block;
         }
     }
     &__information {
         margin-top: 32px;
-        @include for-extra-small {
+        @include for-desktop {
             margin-top: 115px;
             margin-bottom: 116px;
         }
@@ -43,7 +43,7 @@
         font-weight: bold;
         font-size: 22px;
         line-height: 34px;
-        @include for-extra-small {
+        @include for-desktop {
             margin-left: 28px;
         }
     }
@@ -54,7 +54,7 @@
         letter-spacing: -0.357143px;
         margin: 0;
         margin-top: 17px;
-        @include for-extra-small {
+        @include for-desktop {
             font-size: 56px;
             line-height: 56px;
             margin-left: 28px;
@@ -66,7 +66,7 @@
         line-height: 34px;
         margin: 0;
         margin-top: 18px;
-        @include for-extra-small {
+        @include for-desktop {
             margin-left: 28px;
             margin-top: 30px;
             max-width: 461px;
@@ -81,7 +81,7 @@
     border-bottom: 4px solid $color-blue;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
     height: 321px;
-    @include for-extra-small {
+    @include for-desktop {
         max-width: 519px;
         max-height: 213px;
         margin-top: 44px;
@@ -103,7 +103,7 @@
     &__profile {
         margin-left: 11px;
         max-width: 200px;
-        @include for-extra-small {
+        @include for-desktop {
             max-width: 250px;
         }
         &-name {

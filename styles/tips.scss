@@ -1,6 +1,6 @@
 .tips {
     margin-top: 8px;
-    @include for-extra-small {
+    @include for-desktop {
         display: none;
     }
 }

@@ -90,7 +90,7 @@
 .headline__button_started {
     height: 48px;
     background-color: #3040c4;
-    color: #fff;
+    color: text-color-white;
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
@@ -107,7 +107,7 @@
 .headline__button_learn {
     width: 100%;
     height: 48px;
-    background-color: #fff;
+    background-color: text-color-white;
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;

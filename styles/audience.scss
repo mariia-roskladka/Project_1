@@ -3,7 +3,7 @@
     text-align: center;
     background-color: rgba(0, 161, 198, 0.07);
     padding: 50px 15px;
-    @include for-extra-small {
+    @include for-desktop {
         padding: 108px 0px 110px;
         flex-direction: column;
         display: flex;
@@ -21,7 +21,7 @@
         letter-spacing: -0.36px;
         margin: 0;
         margin-top: 17px;
-        @include for-extra-small {
+        @include for-desktop {
             margin: auto;
             max-width: 555px;
             margin-top: 24px;
@@ -35,7 +35,7 @@
         line-height: 34px;
         margin-top: 18px;
         margin-bottom: 30px;
-        @include for-extra-small {
+        @include for-desktop {
             margin: auto;
             margin-top: 30px;
             margin-bottom: 34px;
@@ -46,27 +46,27 @@
         &_started {
             margin-bottom: 12px;
             @extend %button-started;
-            @include for-extra-small {
+            @include for-desktop {
                 margin: 0;
             }
-            @include for-medium-small {
+            @include for-mobile {
                 min-width: 100%;
             }
         }
         &_learn {
             @extend %button-learn;
             margin-bottom: 40px;
-            @include for-extra-small {
+            @include for-desktop {
                 margin: 0;
                 margin-left: 4px;
             }
-            @include for-medium-small {
+            @include for-mobile {
                 min-width: 100%;
             }
         }
     }
     &__pictures {
-        @include for-extra-small {
+        @include for-desktop {
             margin-top: 111px;
             display: flex;
             justify-content: center;
@@ -88,7 +88,7 @@
         background-color: $color-dark-blue;
         color: $text-button-collor;
     }
-    @include for-extra-small {
+    @include for-desktop {
         width: 262px;
         margin-left: 30px;
         margin-bottom: 0;
@@ -111,8 +111,4 @@
         line-height: 28px;
         margin-bottom: 33px;
     }
-}
-
-.buttons {
-    @include for-extra-small {}
 }

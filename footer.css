@@ -21,7 +21,7 @@
 }
 
 .footer__line {
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid text-color-dark;
     width: 100%;
     opacity: 0.1;
     margin-top: 40px;
@@ -111,7 +111,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: text-color-dark;
     margin: 0px;
 }
 
@@ -121,7 +121,7 @@
     margin: 0;
     font-size: 18px;
     line-height: 30px;
-    color: #2b292d;
+    color: text-color-dark;
     opacity: 0.6;
     margin-top: 18px;
 }
@@ -185,7 +185,7 @@
 
 .terms__item {
     text-decoration: none;
-    color: #2b292d;
+    color: text-color-dark;
     opacity: 0.6;
     margin-right: 22px;
 }

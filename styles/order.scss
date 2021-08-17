@@ -2,7 +2,7 @@
 .order {
     padding: 50px 15px;
     background-color: $color-light;
-    @include for-extra-small {
+    @include for-desktop {
         padding: 73px 0 72px;
         display: flex;
         align-items: flex-start;
@@ -11,13 +11,13 @@
     }
     &__details {
         max-width: 550px;
-        @include for-extra-small {
+        @include for-desktop {
             margin-top: 45px;
         }
     }
     &__illustration {
         min-width: 200px;
-        @include for-extra-small {
+        @include for-desktop {
             max-width: 269px;
             margin-right: 121px;
         }
@@ -30,13 +30,13 @@
         letter-spacing: -0.357143px;
         margin: 0;
         margin-top: 40px;
-        @include for-extra-small {
+        @include for-desktop {
             text-align: start;
             margin: 0;
         }
     }
     &__form {
-        @include for-extra-small {
+        @include for-desktop {
             display: flex;
             margin-top: 26px;
         }
@@ -46,7 +46,7 @@
         margin-top: 18px;
         font-size: 22px;
         line-height: 32px;
-        @include for-extra-small {
+        @include for-desktop {
             margin-top: 12px;
         }
     }
@@ -59,7 +59,7 @@
         width: 100%;
         text-align: center;
         line-height: 13px;
-        @include for-extra-small {
+        @include for-desktop {
             margin-top: 0px;
             max-width: 385px;
         }
@@ -70,10 +70,10 @@
     &__button {
         @extend %button-started;
         margin-top: 12px;
-        @include for-medium-small {
+        @include for-mobile {
             min-width: 100%;
         }
-        @include for-extra-small {
+        @include for-desktop {
             margin: 0;
             margin-left: 10px;
             flex-shrink: 0;
@@ -85,7 +85,7 @@
         font-size: 14px;
         line-height: 22px;
         color: $text-button-light-grey;
-        @include for-extra-small {
+        @include for-desktop {
             margin-top: 10px;
         }
     }
