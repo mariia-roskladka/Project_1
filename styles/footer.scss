@@ -3,7 +3,6 @@
     margin-top: auto;
     display: flex;
     flex-direction: column;
-    @include for-desktop {}
     &-links {
         margin-left: 15px;
         display: flex;
@@ -31,7 +30,6 @@
         flex-direction: column;
         @include for-desktop {
             margin: 0 auto;
-            height: 338px;
             display: flex;
             width: 1140px;
             flex-direction: column;
