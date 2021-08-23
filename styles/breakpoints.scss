@@ -1,0 +1,12 @@
+$lg: 1400px;
+@mixin for-desktop {
+    @media screen and (min-width: $lg) {
+        @content;
+    }
+}
+
+@mixin for-mobile {
+    @media screen and (max-width: $lg - 1) {
+        @content;
+    }
+}
